@@ -4,20 +4,32 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Helsinki Harps | Club Home</title>
-  <meta name="description" content="Official website of Helsinki Harps. Fixtures, squad, club updates, and contact information." />
+  <meta
+    name="description"
+    content="Official website of Helsinki Harps. Club information, gallery, squad, fixtures, and contact details."
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="brand" href="index.html">
-        <img src="assets/badges/badge.svg" alt="Helsinki Harps club badge" class="logo" />
-        <span>Helsinki Harps</span>
+      <a class="brand brand-large" href="index.html">
+        <img
+          src="assets/badges/badge.svg"
+          alt="Helsinki Harps club badge"
+          class="logo"
+        />
+        <div class="brand-text">
+          <span class="brand-name">Helsinki Harps</span>
+          <span class="brand-subtitle">Community club in Helsinki</span>
+        </div>
       </a>
 
-      <button class="menu-toggle" aria-label="Toggle navigation" id="menuToggle">Menu</button>
+      <button class="menu-toggle" aria-label="Toggle navigation" id="menuToggle">
+        Menu
+      </button>
 
-      <nav class="site-nav" id="siteNav">
+      <nav class="site-nav site-nav-wide" id="siteNav">
         <a href="index.html">Home</a>
         <a href="squad.html">Squad</a>
         <a href="fixtures.html">Fixtures</a>
@@ -29,14 +41,10 @@
   </header>
 
   <main>
-    <section class="hero hero-spacious">
-      <div class="container">
+    <section class="hero hero-clean">
+      <div class="container hero-container">
         <p class="hero-kicker">Community. Commitment. Matchday.</p>
         <h1 class="hero-title">HELSINKI HARPS</h1>
-        <p class="hero-intro">
-          Welcome to Helsinki Harps — a club built around commitment, belonging, and a genuine love of the game.
-          We want players, families, supporters, and new faces to feel part of something local, active, and ambitious.
-        </p>
 
         <div class="hero-image-wrap">
           <img
@@ -56,87 +64,35 @@
       </div>
     </section>
 
-    <section class="section welcome-section">
-      <div class="container two-col">
-        <div>
-          <p class="section-label">About the club</p>
-          <h2>A welcoming club with room to grow</h2>
-        </div>
-        <div>
-          <p class="section-text">
-            Helsinki Harps is a community-focused team where effort, teamwork, and enjoyment matter.
-            Whether you are a player looking for a club, a supporter following results, or someone interested
-            in joining training, we want this site to be an easy way to connect with the team.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section cards-section">
-      <div class="container cards-3">
-        <article class="info-card">
-          <p class="card-label">Next fixture</p>
-          <h3>Harps vs East Bay FC</h3>
-          <p>Saturday, 20 April · 15:00</p>
-          <p>Central Sports Ground, Helsinki</p>
-        </article>
-
-        <article class="info-card">
-          <p class="card-label">Training</p>
-          <h3>Tuesdays & Thursdays</h3>
-          <p>18:30–20:00 at Riverside Training Pitch</p>
-          <p>New players are always welcome to get in touch.</p>
-        </article>
-
-        <article class="info-card">
-          <p class="card-label">Latest result</p>
-          <h3>Harps 3–1 Northside United</h3>
-          <p>A strong second-half performance secured all three points.</p>
-          <p>See more fixtures and recent results on the fixtures page.</p>
-        </article>
+    <section class="section intro-section">
+      <div class="container intro-wrap">
+        <p class="section-label">Welcome</p>
+        <h2>A local club with an open door</h2>
+        <p class="section-text intro-text">
+          Helsinki Harps is built around effort, enjoyment, and a strong sense of community.
+          We want players, supporters, families, and anyone curious about the club to feel welcome here.
+          This is a place to follow the team, see what we are about, and get involved.
+        </p>
       </div>
     </section>
 
     <section class="section media-section">
       <div class="container media-grid">
-        <div>
-          <p class="section-label">Club media</p>
-          <h2>Show the energy of the team</h2>
+        <div class="media-copy">
+          <p class="section-label">Video showcase</p>
+          <h2>Bring the sport to life</h2>
           <p class="section-text">
-            Add a short highlight clip, training reel, or matchday video here to give visitors an immediate sense
-            of the sport, the atmosphere, and the club’s personality.
+            Add a short training clip, match highlight, or club reel here so visitors immediately
+            get a feel for the speed, atmosphere, and energy around Helsinki Harps.
           </p>
-          <a class="text-link" href="gallery.html">Open the gallery →</a>
         </div>
 
         <div class="video-placeholder">
           <div class="video-box">
             <p>Video showcase area</p>
-            <span>Embed a YouTube or Vimeo club video here later</span>
+            <span>Embed a YouTube or Vimeo video here later</span>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section class="section quick-links-section">
-      <div class="container cards-3">
-        <article class="link-card">
-          <h3>Squad</h3>
-          <p>Meet the players and coaching staff behind Helsinki Harps.</p>
-          <a class="text-link" href="squad.html">See squad →</a>
-        </article>
-
-        <article class="link-card">
-          <h3>Fixtures & Results</h3>
-          <p>Keep track of upcoming matches, kick-off times, and recent scores.</p>
-          <a class="text-link" href="fixtures.html">Open fixtures →</a>
-        </article>
-
-        <article class="link-card">
-          <h3>Gallery</h3>
-          <p>Browse training sessions, matchday moments, and club photos.</p>
-          <a class="text-link" href="gallery.html">View gallery →</a>
-        </article>
       </div>
     </section>
   </main>
