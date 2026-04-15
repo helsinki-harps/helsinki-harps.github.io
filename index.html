@@ -6,12 +6,12 @@
   <title>Helsinki Harps | Club Home</title>
   <meta
     name="description"
-    content="Official website of Helsinki Harps. Club information, gallery, fixtures, and contact details."
+    content="Official website of Helsinki Harps. Community club in Helsinki with fixtures, gallery, contact details, and club updates."
   />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header" id="siteHeader">
     <div class="container nav-wrap">
       <a class="brand brand-large" href="index.html">
         <img
@@ -40,57 +40,115 @@
   </header>
 
   <main>
-    <section class="hero hero-clean">
-      <div class="container hero-container">
-        <p class="hero-kicker">Community. Commitment. Matchday.</p>
-        <h1 class="hero-title">HELSINKI HARPS</h1>
+    <section class="hero hero-dynamic">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="hero-kicker">Community. Commitment. Matchday.</p>
+          <h1 class="hero-title reveal">
+            HELSINKI<br />
+            HARPS
+          </h1>
+          <p class="hero-intro reveal">
+            A welcoming local club built around effort, enjoyment, and a real sense of belonging.
+            Follow the team, discover the club, and get involved with Helsinki Harps.
+          </p>
 
-        <div class="hero-image-wrap">
-          <img
-            src="assets/images/training/harps-training.jpeg"
-            alt="Helsinki Harps players during training"
-            width="1600"
-            height="900"
-            class="hero-image"
-          />
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary" href="fixtures.html">View fixtures</a>
+            <a class="btn btn-secondary" href="contact.html">Join the club</a>
+            <a class="btn btn-ghost" href="gallery.html">See gallery</a>
+          </div>
         </div>
 
-        <div class="hero-actions hero-actions-below">
-          <a class="btn btn-primary" href="fixtures.html">View fixtures</a>
-          <a class="btn btn-secondary" href="contact.html">Join the club</a>
-          <a class="btn btn-ghost" href="gallery.html">See gallery</a>
+        <div class="hero-media reveal">
+          <div class="hero-image-shell">
+            <img
+              src="assets/images/training/harps-training.jpeg"
+              alt="Helsinki Harps players during training"
+              width="1600"
+              height="900"
+              class="hero-image"
+            />
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section intro-section">
-      <div class="container intro-wrap">
-        <p class="section-label">Welcome</p>
-        <h2>A local club with an open door</h2>
-        <p class="section-text intro-text">
-          Helsinki Harps is built around effort, enjoyment, and a strong sense of community.
-          We want players, supporters, families, and anyone curious about the club to feel welcome here.
-          This is a place to follow the team, see what we are about, and get involved.
-        </p>
+    <section class="ticker-band">
+      <div class="ticker-track">
+        <span>Next fixture: Harps vs East Bay FC — Saturday 20 April — 15:00</span>
+        <span>Training: Tuesdays & Thursdays — 18:30–20:00</span>
+        <span>New players welcome — Contact the club to get involved</span>
+        <span>Next fixture: Harps vs East Bay FC — Saturday 20 April — 15:00</span>
+        <span>Training: Tuesdays & Thursdays — 18:30–20:00</span>
+        <span>New players welcome — Contact the club to get involved</span>
       </div>
     </section>
 
-    <section class="section media-section">
+    <section class="section intro-section reveal-section">
+      <div class="container intro-grid">
+        <div class="intro-left">
+          <p class="section-label">Welcome</p>
+          <h2>A club with energy, identity, and room for everyone</h2>
+        </div>
+        <div class="intro-right">
+          <p class="section-text intro-text">
+            Helsinki Harps is about more than results. We are building a club culture around consistency,
+            local pride, team spirit, and an open door for players and supporters. Whether you are here
+            to follow fixtures, explore the club, or think about joining, this site should feel active,
+            clear, and alive.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section media-section reveal-section">
       <div class="container media-grid">
         <div class="media-copy">
           <p class="section-label">Video showcase</p>
-          <h2>Bring the sport to life</h2>
+          <h2>Bring the club to life on screen</h2>
           <p class="section-text">
-            Add a short training clip, match highlight, or club reel here so visitors immediately
-            get a feel for the speed, atmosphere, and energy around Helsinki Harps.
+            Add a highlight reel, training clip, or matchday video here to show the pace, atmosphere,
+            and character of Helsinki Harps in a more immediate way.
           </p>
+          <a class="text-link" href="gallery.html">Explore more club media →</a>
         </div>
 
         <div class="video-placeholder">
           <div class="video-box">
+            <div class="play-badge">▶</div>
             <p>Video showcase area</p>
-            <span>Embed a YouTube or Vimeo video here later</span>
+            <span>Drop in a YouTube or Vimeo embed when you are ready</span>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section strip-section reveal-section">
+      <div class="container">
+        <div class="strip-header">
+          <p class="section-label">Club pulse</p>
+          <h2>Built around training, games, and community</h2>
+        </div>
+
+        <div class="pulse-grid">
+          <article class="pulse-card">
+            <p class="card-label">Training</p>
+            <h3>Regular weekly sessions</h3>
+            <p>Structured training, team development, and a welcoming route into the club.</p>
+          </article>
+
+          <article class="pulse-card">
+            <p class="card-label">Matchday</p>
+            <h3>Competitive local football</h3>
+            <p>Fixtures, results, and the moments that shape the team across the season.</p>
+          </article>
+
+          <article class="pulse-card">
+            <p class="card-label">Community</p>
+            <h3>A club people can join</h3>
+            <p>Players, supporters, and new faces all have a place in the Harps environment.</p>
+          </article>
         </div>
       </div>
     </section>
