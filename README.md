@@ -7,3 +7,4 @@ This website is hosted on *GitHub Pages*. The domain is hosted on XX.
 - Check email and links from contact form
 - Training and game information
 - Funding references
+- Get domain
